@@ -33,7 +33,7 @@ const Search = () => {
       setOpen(true);
     };
     fetchFiles();
-  }, [debounceQuery]);
+  }, [debounceQuery, router, path, searchParams]);
 
   useEffect(() => {
     if (!searchQuery) {
