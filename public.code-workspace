@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "public",
+		"path": "../urstore/public"
+	},
+	{
+		"name": "e-store",
+		"path": "."
+	}
+],
+  "settings": {}
+}
